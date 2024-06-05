@@ -1,6 +1,5 @@
-</section>
-<script src="main.js"></script>
-</body>
-</html>
-const botoes = document.querySelectorAll(".botao");
-console.log(botoes);
+const botoes = document.querySelectorAll('.botao')
+
+for(left i=0;i <botoes.length,i++){
+console.log(i;)
+}
