@@ -20,9 +20,9 @@ body {
   display: flex;
   flex-direction:column;
   justify-content: center;
-  align-items: center
+  align-items: center;
   max-width: 1200px;
-  width: 100%
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ body {
       border-radius: 40px 0 0 0;
   }
 .ativo{
-  .background-color: var(--botao .ativo)
+  .background-color: var(--botao .ativo);
 }
 
 
@@ -77,4 +77,3 @@ body {
   background-color: var(--botao-ativo);
   border-bottom: 4px solid var(--verde);
   }
-  
