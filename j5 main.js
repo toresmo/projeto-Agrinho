@@ -33,5 +33,17 @@ function calculaTempo(tempoObjetivo) {
  
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
 }
+const tempoObjetivo3 = new Date("2023-12-30T00:00:00");
+const tempoObjetivo4 = new Date("2024-02-01T00:00:00");
+contadores[0].textContent = calculaTempo(tempoObjetivo1);
+contadores[1].textContent = calculaTempo(tempoObjetivo2);
+const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
+contadores[0].textContent = calculaTempo(tempos[0]);
+for (let i = 0; i < contadores.length; i++) {
+    contadores[i].textContent = calculaTempo(tempos[i]);
+}
+atualizaCronometro();
+setInterval(atualizaCronometro(), 1000);
+setInterval(atualizaCronometro, 1000);
 
 
